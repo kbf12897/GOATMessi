@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Your Opinion</title>
+</head>
+<body>
+    <div class="nav_bar">
+        <a href="first-page.html">Messi vs Ronaldo</a>
+        <a href="second-page.html">Your Opinion</a>
+        <a href="third-page.html">Sources</a>
+        <a href="fourth-page.html">Images</a>
+    </div>
+
+    <form>
+        <fieldset>
+            <legend>Your opinion</legend>
+
+            <div class="fav_input">
+                <label for="player">Who is your favorite player?</label>
+                <input type="text" id="player" name="player">
+            </div>
+
+            <div class="fav_input">
+                <label for="club">What club do you support?</label>
+                <input type="text" id="club" name="club">
+            </div>
+
+            <div class="m_r">
+                <p>Who do you think is better?</p>
+                <input type="checkbox" id="messi" name="messi">
+                <label for="messi">Messi</label>
+                <input type="checkbox" id="ronaldo" name="ronaldo">
+                <label for="ronaldo">Ronaldo</label>
+            </div>
+
+            <div class="opinion">
+                <label for="exp">Why do you believe they are better?</label>
+                <textarea id="exp"></textarea>
+            </div>
+
+            <button type="submit" class="bttn">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    margin-bottom: 20px;
+    text-decoration: underline overline;
+    text-transform: uppercase;
+}
+
+
+img {
+    max-width: 300px;
+    max-height: 500px;
+    padding:10px;
+}
+
+.messi {
+    display:inline-block;
+    margin:5px 20px;
+    padding:5px;
+    border:1px solid #CCC;
+}
+
+.ronaldo {
+    display:inline-block;
+    margin:5px 20px;
+    padding:5px;
+    border:1px solid #CCC;
+}
